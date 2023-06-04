@@ -1,26 +1,84 @@
- html,body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
   background-image: url("ecologiafundo.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment:fixed;
+  background-attachment: fixed;
   height: 100%;
   margin: 0;
   padding: 0;
 }
+
+#titulo {
+  min-height: 00px;
+  max-height: 100px;
+  width: 100%;
+  background-color: rgb(55, 103, 55);
+}
+
+#criadores {
+  background-color: rgb(55, 103, 55);
+}
+
+#p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
 h1 {
- font-family: arial;
- color: white;
- text-align : center;
- margin-left: 20px;
- margin-right: 20px;
- font-size 74px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 74px;
 }
- p {
-  color:white;
-  font-family: arial;
+
+#box {
+  height: calc(100% - 100px);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
-#botoes {
- display: grid;
- 
+
+#box button {
+  position: relative;
+  border: none;
+  border-radius: 100px;
+  border: 5px solid black;
+  outline: none;
+  padding: 10px;
+  width: 350px;
+  font-size: 1.6em;
+  top: 50%;
+  bottom: 50px;
+  transform: translateY(-50%);
+  display: block;
+  background-color: rgb(55, 103, 55);
+  color: white;
+  cursor: pointer;
+}
+
+#btn-1,
+#btn-3,
+#btn-5 {
+  margin-left: 20%;
+}
+
+#btn-2,
+#btn-4,
+#btn-6 {
+  margin-left: 40%;
 }
