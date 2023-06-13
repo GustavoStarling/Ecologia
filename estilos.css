@@ -1,86 +1,93 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  #titulo {
+    max-height: 100px;
+    min-height: 85px;
+    width: 100%;
+    background-color:  #2D4D3E;
+    border-bottom: 8px solid #406755;
+    position: fixed;
+  }
+  
+  #titulo h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 65px;
+  }
 
-html,
-body {
-  height: 100%;
-}
+  article {
+    background-image: url("ecologiafundo.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
 
-#titulo {
-  max-height: 100px;
-  min-height: 85px;
-  width: 100%;
-  background-color:  #2D4D3E;
-  border-bottom: 8px solid #406755;
-}
-
-#titulo h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
-  text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 65px;
-}
-
-#box {
-  height: calc(80% - 220px);
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  background-image: url("ecologiafundo.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#box button {
-  position: relative;
-  border: none;
-  border-radius: 100px;
-  border: 5px solid black;
-  outline: none;
-  padding: 10px;
-  width: 350px;
-  font-size: 1.6em;
-  top: 50%;
-  bottom: 50px;
-  transform: translateY(-50%);
-  display: block;
-  background-color:  #2D4D3E;
-  color: white;
-  cursor: pointer;
-}
-
-#btn-1,
-#btn-3,
-#btn-5 {
-  margin-left: 10%;
-  margin-top: 35px;
-}
-
-#btn-2,
-#btn-4,
-#btn-6 {
-  float: right;
-  margin-right: 10%;
-  margin-top: 35px;
-}
-
-footer {
-  background-color: #406755;
-  height: 30px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  color: white;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1em;
-  padding: 5px;
-}
+  }
+  
+  #box {
+    height: calc(80% - 220px);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+  }
+  
+  #box button {
+    position: relative;
+    border: none;
+    border-radius: 100px;
+    border: 5px solid black;
+    outline: none;
+    padding: 10px;
+    width: 350px;
+    font-size: 1.6em;
+    top: 50%;
+    bottom: 50px;
+    transform: translateY(-50%);
+    display: block;
+    background-color:  #2D4D3E;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #btn-1,
+  #btn-3,
+  #btn-5 {
+    margin-left: 10%;
+    margin-top: 35px;
+  }
+  
+  #btn-2,
+  #btn-4,
+  #btn-6 {
+    float: right;
+    margin-right: 10%;
+    margin-top: 35px;
+  }
+  
+  footer {
+    background-color: #406755;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding: 5px;
+  }
