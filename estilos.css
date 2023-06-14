@@ -20,7 +20,6 @@
   }
   
   #titulo h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
     margin-left: 20px;
@@ -55,7 +54,6 @@
     padding: 10px;
     height: 80px;
     width: 350px;
-    font-size: 1.6em;
     top: 50%;
     bottom: 50px;
     transform: translateY(70%);
@@ -63,14 +61,54 @@
     background-color:  #2D4D3E;
     color: white;
     cursor: pointer;
-    font-size: 1.8em;
-    transition: 1s;
+    --color: rgb(10, 25, 30);
+    --color2: #00A97F;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-size: 20px;
   }
 
-  #box button:hover {
-    background-color: rgba(32, 136, 0, 0.316);
-  }
-  
+  #box button::after, .btn::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: rgb(10, 25, 30);
+   }
+
+   #box button::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   #box button:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   #box button:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+   }
+   
+   #box button:hover {
+    color: #45ad7d;
+   }
+   
+   #box button:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+   }
+
   #btn-1,
   #btn-3,
   #btn-5 {
@@ -97,4 +135,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
     padding: 5px;
+  }
+
+  a{
+    text-decoration: none;
   }
