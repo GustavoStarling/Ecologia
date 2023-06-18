@@ -168,10 +168,11 @@ h1 a {
 nav {
   margin: 0;
   position: absolute;
-  top: 0;
+  top: 100px fixed;
+  margin-top: 80px;
   left: 0;
-  width: 20vw;
-  height: 80vh;
+  width: 25vw fixed;
+  height: 100vh fixed;
   background-color: #2D4D3E;
   float: left;
   z-index: 2;
@@ -194,7 +195,7 @@ nav.ativo {
 
 nav a {
   display: block;
-  font-size: 1.2em;
+  font-size: 1em;
   color: white;
   padding: 20px;
   border-radius: 5px;
@@ -209,4 +210,16 @@ nav a:hover {
   article {
     background-position: center -30px;
   }
+}
+
+#fundo{
+  background-color: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+  opacity: 40px;
+
+
 }
