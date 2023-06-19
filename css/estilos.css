@@ -233,3 +233,54 @@ p {
     font-family: arial;
     padding-bottom: 15px;
 }
+
+@media (max-width: 767px) {
+    #titulo h1 {
+        font-size: 40px;
+    }
+
+    #box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #box button {
+        width: 80%;
+    }
+}
+/*Felipe Deny: Esqueci onde colocar os comentários,aqui está minha tentaiva de deixar o site responsivo/*
+
+/* Regras de mídia para telas entre 768px e 1024px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #titulo h1 {
+        font-size: 50px;
+    }
+
+    #box {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+}
+
+/* Regras de mídia para telas maiores que 1024px */
+@media (min-width: 1024px) {
+    #titulo h1 {
+        font-size: 60px;
+    }
+
+    #box {
+        height: calc(80% - 220px);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 0px 1fr;
+    }
+}
+ 
+
+
+
+
+
+
