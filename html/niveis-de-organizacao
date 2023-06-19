@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="icon" href="../img/icone.png">
     <script src="../js/script.js" defer></script>
-    <title>Niveis de Organizacao</title>
+    <title>Ecossistema</title>
 </head>
 
 <body>
         <header id="titulo">
             <div id="hamburguer"></div>
-            <h1><a href="../index.html">Niveis de Organizacao</a></h1>
+            <h1><a href="../index.html">Ecossistema</a></h1>
         </header>
         <nav>
             <div id="menu">
