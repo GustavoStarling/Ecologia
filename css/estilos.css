@@ -11,7 +11,7 @@ body {
 }
 
 #titulo {
-    font-family: 'Montserrat', sans-serif;
+     
     max-height: 100px;
     min-height: 80px;
     width: 100%;
@@ -24,6 +24,7 @@ body {
 }
 
 #titulo h1 {
+    font-family: 'Signika', sans-serif;
     color: white;
     text-align: center;
     margin-left: 20px;
@@ -151,7 +152,7 @@ a {
 }
 
 h1 a {
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Signika', sans-serif;
     color: white;
 }
 
