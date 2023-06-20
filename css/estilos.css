@@ -226,6 +226,9 @@ nav a:hover {
     padding: 60px;
     border-radius: 30px;
     margin-top: 80px;
+     border: 2px solid;
+    border-image: linear-gradient(to bottom, #00ff00, #008000) 1;
+     padding: 20px;
 }
 
 p {
