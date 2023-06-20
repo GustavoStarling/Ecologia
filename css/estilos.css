@@ -223,12 +223,13 @@ nav a:hover {
     max-width: 1000px;
     background-color: rgba(247, 247, 247, 0.493);
     text-align: justify;
-    padding: 60px;
+    padding: 20px;
     border-radius: 30px;
     margin-top: 80px;
     border: 2px solid;
     border-image: linear-gradient(to bottom right, #9effb8, #00cc66) 1;
     border-image-slice: 1;
+    
 }
 
 p {
