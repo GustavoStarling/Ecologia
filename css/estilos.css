@@ -229,8 +229,7 @@ nav a:hover {
 }
 
 p {
-    font-size: 15pt;
-    font-family: arial;
+    font-size: 18px;
     padding-bottom: 15px;
 }
 
@@ -277,7 +276,66 @@ p {
         grid-template-rows: 1fr 0px 1fr;
     }
 }
- 
+
+#gerais{
+    padding-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#habitat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h2{
+    padding-bottom: 15px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+#nicho{
+    display: block;
+    width: 400px;
+    padding: 20px;
+    flex-direction: column;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+#biotico{
+    display: block;
+    width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+#abioticos{
+    display: block;
+    width: 700px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+#bio{
+    display: block;
+    width: 600px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
 
 
 
