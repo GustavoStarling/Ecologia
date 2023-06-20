@@ -11,7 +11,7 @@ body {
 }
 
 #titulo {
-     
+    font-family: 'Montserrat', sans-serif;
     max-height: 100px;
     min-height: 80px;
     width: 100%;
