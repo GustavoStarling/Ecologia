@@ -11,6 +11,7 @@ body {
 }
 
 #titulo {
+    font-family: 'Instrument Sans', sans-serif;
     max-height: 100px;
     min-height: 80px;
     width: 100%;
