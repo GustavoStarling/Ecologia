@@ -297,6 +297,7 @@ p {
     width: 800px;
     padding: 20px;
     border-radius: 30px;
+    height: 20vh;
 }
 
 h2{
@@ -314,6 +315,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
+    height: 20vh;
 }
 
 #biotico{
@@ -323,12 +325,14 @@ h2{
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
+    height:20vh;
 }
 
 #abioticos{
     display: block;
     width: 700px;
     padding: 20px;
+    height: 20vh;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
@@ -337,11 +341,15 @@ h2{
 #bio{
     display: block;
     width: 600px;
+    height: 20vh;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
     
+}
+#habitat, #nicho, #biotico, #abioticos, #bio {
+  margin-bottom: 20px;
 }
 
 
