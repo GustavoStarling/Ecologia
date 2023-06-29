@@ -295,7 +295,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
-    padding: 20px;
+    padding: 60px;
     border-radius: 30px;
 }
 
@@ -308,7 +308,7 @@ h2{
 #nicho{
     display: block;
     width: 400px;
-    padding: 20px;
+    padding: 60px;
     flex-direction: column;
     display: inline;
     margin-left: auto;
@@ -319,7 +319,7 @@ h2{
 #biotico{
     display: block;
     width: 500px;
-    padding: 20px;
+    padding: 60px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
@@ -328,7 +328,7 @@ h2{
 #abioticos{
     display: block;
     width: 700px;
-    padding: 20px;
+    padding: 60px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
@@ -337,7 +337,7 @@ h2{
 #bio{
     display: block;
     width: 600px;
-    padding: 10px;
+    padding: 60px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
