@@ -36,10 +36,8 @@ body {
 article {
     background-image: url("../img/ecologiafundo.webp");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center -70px;
+    background-position: center;
     background-attachment: fixed;
-    height: 100vh;
     background-color: transparent;
 }
 
