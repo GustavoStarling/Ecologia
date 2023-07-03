@@ -39,6 +39,7 @@ article {
     background-size: cover;
     background-position: center -70px;
     background-attachment: fixed;
+    margin: 0;
     background-color: transparent;
 }
 
