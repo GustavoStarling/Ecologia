@@ -39,6 +39,7 @@ article {
     background-size: cover;
     background-position: center -70px;
     height: 100%;
+    background-attachment: fixed;
 }
 
 #box {
