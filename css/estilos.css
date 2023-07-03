@@ -37,7 +37,7 @@ article {
     background-image: url("../img/ecologiafundo.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center -70px;
     background-attachment: fixed;
     background-color: transparent;
 }
