@@ -15,6 +15,7 @@
       text-align: left;
       border-bottom: 1px solid #ddd;
       border-right: 1px solid #ddd;
+     background: linear-gradient(#eaf7ef, #f2f9f2);
     }
 
     th {
