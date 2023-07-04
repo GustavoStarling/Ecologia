@@ -370,6 +370,11 @@ h2{
     padding: 20px;
     border-radius: 30px;
 }
+#elefante {
+    float: left;
+    margin: auto;
+    display: block;
+}
  
 
 
