@@ -59,6 +59,9 @@ article {
     background-size: cover;
     background-position: center -70px;
     background-attachment: fixed;
+}
+
+#tela {
     height: 100%;
 }
 
