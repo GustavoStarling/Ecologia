@@ -6,16 +6,16 @@
      font-family: 'Signika', sans-serif;
 }
  table {
-      width: 80%;
+      width: 60%;
       border-collapse: collapse;
     }
 
  th, td {
-      padding: 6px;
+      padding: 4px;
       text-align: left;
       border-bottom: 1px solid #ddd;
       border-right: 1px solid #ddd;
-     background: linear-gradient(#eaf7ef, #f2f9f2);
+     background-image: linear-gradient(#eaf7ef, #f2f9f2);
     }
 
     th {
