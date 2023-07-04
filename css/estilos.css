@@ -8,6 +8,9 @@
  table {
       width: 60%;
       border-collapse: collapse;
+     margin: auto; 
+      position: fixed;
+      bottom: 10%; 
     }
 
  th, td {
