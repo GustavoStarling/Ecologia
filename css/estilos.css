@@ -378,7 +378,7 @@ h2 {
 }
 
 #elefante {
-    float: left;
+    float: center;
     margin: auto;
     display: block;
 }
