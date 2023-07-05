@@ -378,8 +378,10 @@ h2 {
 }
 
 #elefante {
-    margin: auto;
+    margin-top: 10px;
     display: inline-block;
+    margin-bottom:10px;
+    
 }
 
 #pl {
