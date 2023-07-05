@@ -378,9 +378,8 @@ h2 {
 }
 
 #elefante {
-    float: right;
     margin: auto;
-    display: block;
+    display: inline-block;
 }
 
 #pl {
